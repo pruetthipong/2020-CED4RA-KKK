@@ -4,6 +4,6 @@
 - 6002041610033 Naruemon Kongpech
 - 6002041620187 Anyapach Tiranithipat
 - 6002041620071 Patcharee Pakmat
-- 6002041610092 supamit Chunprawat
+- 6002041610092 Supamit Chunprawat
 ## Reference
 https://github.com/prawee/information-security
