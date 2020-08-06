@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 120%;
+    background: #ffe4e4;
+    
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    font-family: 'Prompt', Mitr-Medium ;
+    text-align: center;
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: rgb(255, 240, 217);
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Prompt', Mitr-Medium ;
+}
+
+.homeheader { 
+    font-family: 'Mitr';
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Prompt', Mitr-Medium ;
+    color: white;
+    background: #ffc6cf;
+}
+
+.homeheader2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Prompt', Mitr-Medium ;
+    color: white;
+    background: #ffc6cf;
+}
+.homecontent {
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    background: #f9f4e3;
+    height: 100vh;
+    font-family: 'Prompt', Mitr-Medium ;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+    font-family: 'Prompt', Mitr-Medium ;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5f9ea0;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Prompt', Mitr-Medium ;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: hsl(300, 0%, 47%);
+    background: #fffed9;
+    border: 0px solid #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Prompt', Mitr-Medium ;
+}
