@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    include('server.php'); 
+    include('config.php'); 
 ?>
 
 <!DOCTYPE html>
@@ -31,8 +31,20 @@
             </div>
         <?php endif ?>
         <div class="input-group">
+            <label for="stdid">Student ID</label>
+            <input type="text" name="stdid">
+        </div>
+        <div class="input-group">
             <label for="username">Username</label>
             <input type="text" name="username">
+        </div>
+        <div class="input-group">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname">
+        </div>
+        <div class="input-group">
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname">
         </div>
         <div class="input-group">
             <label for="email">Email</label>
@@ -54,3 +66,4 @@
 
 </body>
 </html>
+
