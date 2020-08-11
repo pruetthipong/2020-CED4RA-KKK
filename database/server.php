@@ -1,16 +1,11 @@
-<?php 
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "patcha_db";
 
-    // Create Connection
-    $conn = mysqli_connect($servername, $username, $password, $dbname);
+<?php   
+  $databaseHost = 'localhost';   
+  $databaseName = 'patcha_db';   
+  $databaseUsername = 'root';   
+  $databasePassword = '';   
+  
+  $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);    
 
-    // Check connection
-    if (!$conn) {
-        die("Connection failed" . mysqli_connect_error());
-    } 
-
-?>
+?>    
