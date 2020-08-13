@@ -1,6 +1,7 @@
+
 <?php 
     session_start();
-    include('config.php'); 
+    include('server.php'); 
 ?>
 
 <!DOCTYPE html>
@@ -30,6 +31,7 @@
                 </h3>
             </div>
         <?php endif ?>
+        
         <div class="input-group">
             <label for="stdid">Student ID</label>
             <input type="text" name="stdid">
@@ -66,4 +68,3 @@
 
 </body>
 </html>
-
